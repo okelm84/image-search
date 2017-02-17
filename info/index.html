@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Image search</title>
+  <meta name="description" content="Image Search">
+  <meta name="author" content="Damian Tomaszewski">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Image Search App</h1>
+    <ul>
+        <li>Pass a search term as a parameter and you will receive image URLs, alt text and page urls.</li>
+        <li>You can paginate through the responses by adding a ?offset=int parameter to the URL, int>0.</li>
+        <li>You can get a list of the most recently submitted search strings.</li>
+    </ul>
+    <h2>Example usage:</h2>
+    <p id="examplein"></p>
+    <p><strong>Note:</strong> Maximum number of results from Google CSE is 100, this app will return 10 at a time. So, if offset > 90 then nothing will be returned.</p>
+    </div>
+    
+      
+
+    <script src="urladd.js"></script>
+</body>
+</html>

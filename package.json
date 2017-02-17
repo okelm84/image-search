@@ -9,6 +9,9 @@
   "author": "Damian Tomaszewski",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1"
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24",
+    "node-google-image-search": "^1.0.3"
   }
 }
